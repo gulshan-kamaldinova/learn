@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(295.04deg, #9C2004 5.77%, #AB2706 97.94%);
+    margin: 0;
+}
+
+.wrapper {
+    width: 1440px;
+    padding: 64px 0 0 64px;
+}
+
+.left {
+    position: relative;
+    display: flex;
+    width: 656px;
+}
+.man {
+    position: absolute;
+    top: 42px;
+}
+
+.sun {
+    position: absolute;
+    z-index: -2;
+}
+
+
+.pattern1 {
+    position: absolute;
+    z-index: -1;
+    top: 24px;
+}
+
+.pattern2 {
+    position: absolute;
+    z-index: -1;
+    right: -38px;
+    top: 502px;
+}
